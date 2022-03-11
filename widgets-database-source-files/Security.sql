@@ -1,0 +1,4 @@
+--Commented out because this piece of code represents the AAD conundrum currently being investigated.
+-- CREATE USER [retracement@retracement.me] FROM EXTERNAL PROVIDER;
+-- GO
+-- EXEC sp_addrolemember 'db_owner',[retracement@retracement.me]

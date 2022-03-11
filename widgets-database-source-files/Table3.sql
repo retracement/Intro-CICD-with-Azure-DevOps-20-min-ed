@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[Table3]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [c1] NCHAR(10) NULL, 
+    [c2] NCHAR(10) NOT NULL DEFAULT 0
+)
